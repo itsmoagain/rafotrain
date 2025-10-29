@@ -1,0 +1,26 @@
+{
+  "phenology_stage": {
+    "flowering": 0,
+    "fruit_set": 1,
+    "grain_fill": 2,
+    "heading": 3,
+    "vegetative": 4
+  },
+  "soil_type": {
+    "chernozem": 0,
+    "volcanic_loam": 1
+  },
+  "crop": {
+    "coffee": 0,
+    "maize": 1,
+    "wheat": 2
+  },
+  "practice_id": {
+    "compost_application": 0,
+    "foliar_feed": 1,
+    "irrigation": 2,
+    "mulch_retention": 3,
+    "shade_netting": 4,
+    "staggered_irrigation": 5
+  }
+}
