@@ -1,0 +1,15 @@
+jamaica_blue_mountain:
+  country: "Jamaica"
+  climate: "Tropical montane"
+  primary_crops: ["coffee"]
+  elevation_m: 1800
+  soil_types: ["volcanic_loam"]
+  notes: "High elevation coffee growing region with frequent cloud cover."
+
+hungary_puszta:
+  country: "Hungary"
+  climate: "Continental steppe"
+  primary_crops: ["wheat", "maize"]
+  elevation_m: 95
+  soil_types: ["chernozem"]
+  notes: "Lowland plain subject to summer heatwaves and periodic drought."

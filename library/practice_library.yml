@@ -1,0 +1,78 @@
+-
+  practice_id: "mulch_retention"
+  crop: "coffee"
+  anomaly_type: "drought"
+  description: "Increase mulch and shade cover to retain soil moisture."
+  expected_outcomes: ["soil_moisture_rebound", "ndvi_recovery"]
+  tags: ["soil_moisture", "spi<-1.5"]
+  evidence: ["Jamaica field trials 2020"]
+  cost_level: "low"
+  labor_intensity: "medium"
+  observed_effectiveness: 0.815
+  predicted_effectiveness: 0.783
+  sample_size: 2
+-
+  practice_id: "foliar_feed"
+  crop: "coffee"
+  anomaly_type: "vegetation_stress"
+  description: "Apply foliar micronutrients to boost canopy."
+  expected_outcomes: ["ndvi_recovery"]
+  tags: ["ndvi_anomaly<-0.2"]
+  evidence: ["Cooperative foliar studies"]
+  cost_level: "medium"
+  labor_intensity: "low"
+  observed_effectiveness: 0.7
+  predicted_effectiveness: 0.708
+  sample_size: 1
+-
+  practice_id: "compost_application"
+  crop: "coffee"
+  anomaly_type: "vegetation_stress"
+  description: "Apply compost to aid canopy recovery."
+  expected_outcomes: ["ndvi_recovery"]
+  tags: ["ndvi_anomaly<-0.2"]
+  evidence: ["Local cooperative trials"]
+  cost_level: "medium"
+  labor_intensity: "low"
+  observed_effectiveness: 0.65
+  predicted_effectiveness: 0.691
+  sample_size: 1
+-
+  practice_id: "irrigation"
+  crop: "wheat"
+  anomaly_type: "heatwave"
+  description: "Irrigate early morning to reduce evapotranspiration."
+  expected_outcomes: ["soil_moisture_rebound", "yield_proxy"]
+  tags: ["soil_moisture<0.25", "temp_mean>35"]
+  evidence: ["Regional extension guidance"]
+  cost_level: "medium"
+  labor_intensity: "medium"
+  observed_effectiveness: 0.68
+  predicted_effectiveness: 0.638
+  sample_size: 2
+-
+  practice_id: "staggered_irrigation"
+  crop: "maize"
+  anomaly_type: "heatwave"
+  description: "Alternate row irrigation schedule to optimize moisture use."
+  expected_outcomes: ["soil_moisture_rebound"]
+  tags: ["spi>-0.5", "soil_moisture<0.3"]
+  evidence: ["Regional extension guidance"]
+  cost_level: "medium"
+  labor_intensity: "medium"
+  observed_effectiveness: 0.62
+  predicted_effectiveness: 0.626
+  sample_size: 1
+-
+  practice_id: "shade_netting"
+  crop: "wheat"
+  anomaly_type: "heatwave"
+  description: "Install temporary shade netting to reduce canopy heat load."
+  expected_outcomes: ["ndvi_recovery", "yield_proxy"]
+  tags: ["temp_mean>35", "ndvi_anomaly<-0.15"]
+  evidence: ["Experimental station trials"]
+  cost_level: "high"
+  labor_intensity: "high"
+  observed_effectiveness: 0.525
+  predicted_effectiveness: 0.57
+  sample_size: 2

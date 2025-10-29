@@ -1,0 +1,59 @@
+mulch_retention:
+  crop: "coffee"
+  anomaly_type: "drought"
+  description: "Increase mulch and shade cover to retain soil moisture."
+  tags: ["soil_moisture", "spi<-1.5"]
+  expected_outcomes: ["soil_moisture_rebound", "ndvi_recovery"]
+  evidence: ["Jamaica field trials 2020"]
+  cost_level: "low"
+  labor_intensity: "medium"
+
+compost_application:
+  crop: "coffee"
+  anomaly_type: "vegetation_stress"
+  description: "Apply compost to aid canopy recovery."
+  tags: ["ndvi_anomaly<-0.2"]
+  expected_outcomes: ["ndvi_recovery"]
+  evidence: ["Local cooperative trials"]
+  cost_level: "medium"
+  labor_intensity: "low"
+
+irrigation:
+  crop: "wheat"
+  anomaly_type: "heatwave"
+  description: "Irrigate early morning to reduce evapotranspiration."
+  tags: ["soil_moisture<0.25", "temp_mean>35"]
+  expected_outcomes: ["soil_moisture_rebound", "yield_proxy"]
+  evidence: ["Regional extension guidance"]
+  cost_level: "medium"
+  labor_intensity: "medium"
+
+shade_netting:
+  crop: "wheat"
+  anomaly_type: "heatwave"
+  description: "Install temporary shade netting to reduce canopy heat load."
+  tags: ["temp_mean>35", "ndvi_anomaly<-0.15"]
+  expected_outcomes: ["ndvi_recovery", "yield_proxy"]
+  evidence: ["Experimental station trials"]
+  cost_level: "high"
+  labor_intensity: "high"
+
+staggered_irrigation:
+  crop: "maize"
+  anomaly_type: "heatwave"
+  description: "Alternate row irrigation schedule to optimize moisture use."
+  tags: ["spi>-0.5", "soil_moisture<0.3"]
+  expected_outcomes: ["soil_moisture_rebound"]
+  evidence: ["Regional extension guidance"]
+  cost_level: "medium"
+  labor_intensity: "medium"
+
+foliar_feed:
+  crop: "coffee"
+  anomaly_type: "vegetation_stress"
+  description: "Apply foliar micronutrients to boost canopy."
+  tags: ["ndvi_anomaly<-0.2"]
+  expected_outcomes: ["ndvi_recovery"]
+  evidence: ["Cooperative foliar studies"]
+  cost_level: "medium"
+  labor_intensity: "low"
